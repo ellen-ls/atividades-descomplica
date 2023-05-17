@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/imagens/flores-pintadas-rosa-petala-imagem-de-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* ---- Cabeçalho ---- */
+
+header{
+    background: linear-gradient(0deg, rgb(202, 169, 188) 3%, rgba(180, 149, 169, 0.723) 58%);
+    color: rgb(34, 32, 32);
+    width: 100%;
+    
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+}
+
+.navbar-brand,.navbar-nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-brand,.navbar-nav a:hover{
+    text-decoration: none;
+    color: rgb(145, 65, 111);
+}
+
+
+
+
+/* ---- Carousel ---- */
+
+.promo-imagem img{
+width: 500px;
+}
+
+.promo-imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgb(238, 235, 237) 3%, rgba(236, 231, 234, 0.723) 58%);
+    width: 100%;
+    height: 100%;
+   
+}
+
+.promo-imagem h3{
+    background-color: rgb(46, 33, 32);
+    color: white
+}
+
+/* ----- Quem somos ----- */
+
+#quem-somos{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgb(220, 221, 200) 3%, rgba(189, 192, 140, 0.723) 58%);
+
+}
+
+.div-quem-somos{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  
+}
+.div-quem-somos img{
+    width: 500px;
+    
+}
+
+.div-quem-somos p{
+    
+    width: 400px;
+    border: 1px solid rgba(153, 114, 139, 0.723);
+    padding: 5px;
+}
+
+/* --- Nosso time --- */
+#nosso-time, #produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#nosso-time{
+    background: linear-gradient(0deg, rgb(238, 235, 237) 3%, rgba(236, 231, 234, 0.723) 58%);
+}
+.card-geral{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Nossos produtos */
+#produtos{
+    background: linear-gradient(0deg, rgb(220, 221, 200) 3%, rgba(189, 192, 140, 0.723) 58%);
+}
+
+
+
+/* ----- Rodapé ------ */
+
+footer{
+    background-color: rgb(175, 123, 153);
+    width: 100%;
+}
+
+.info-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    
+}
+
+.img-footer img{
+    width: 50px;
+    
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-footer button{
+    background-color:rgb(145, 91, 122) ;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.desenvolvido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(145, 91, 122) ;
+}
